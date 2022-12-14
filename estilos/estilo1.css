@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: gray;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 15px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 25px;
+    gap: 15px;
+}
+
+
+
+
+p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+label{
+    font-size: 2em;
+    color: rgb(230, 181, 92);
+}
+
+button{
+    background-color: chocolate;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+img{
+    width: 100%;
+}
